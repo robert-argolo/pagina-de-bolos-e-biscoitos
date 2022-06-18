@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1440px;
+  background-color: #ffffff;
+  margin: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+  width: 1440px;
+  height: 131px;
+  background-color: black;
+}
+
+.header__logo {
+  width: 90px;
+  height: 131px;
+  float: left;
+  background-image: url(./assets/images/logo-cicle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 89px;
+  margin-right: 8.75px;
+}
+
+.header__name {
+  float: left;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  padding-top: 52px;
+}
+
+.header__nav {
+  float: right;
+  padding-right: 112.92px;
+  padding-top: 52px;
+}
+.header__nav-list {
+  float: left;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight:400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+.header__nav-list--padding {
+  padding: 0px 15px;
+}
+
+.section {
+  margin-top: 29px;
+  text-align: center;
+}
+.section__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+  color: #000000;
+}
+.section__subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+  padding: 29px 323px;
+}
+
+.section__content {
+  width: 1286px;
+  height: 633px;
+  left: 56px;
+  top: 344px;
+  background-color: rgba(217, 217, 217, 0.18);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  margin: auto;
+  padding-top: 68px;
+  padding-left: 63px;
+}
+
+.section__content-itens {
+  float: left;
+  width: 555px;
+}
+.section__content-itens--margin {
+  margin-right: 53px;
+}
+.section__content-itens__image {
+  width: 555px;
+  height: 400px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section__content-itens__image-cake {
+  background-image: url(./assets/images/cake.svg);
+}
+.section__content-itens__image-cook {
+  background-image: url(./assets/images/cook.svg);
+}
+
+.section__content-itens__subtitle {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  padding-top: 26px;
+  padding-bottom: 12px;
+}
+
+.section__content-itens__description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+
+.footer {
+  width: 1440px;
+  height: 41px;
+  margin-top: 6px;
+  text-align: center;
+}
+.footer__copy {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  padding-top: 10px;
+}
